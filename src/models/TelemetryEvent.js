@@ -1,0 +1,28 @@
+module.exports = (sequelize, DataTypes) =>
+  sequelize.define(
+    "TelemetryEvent",
+    {
+      id: { type: DataTypes.BIGINT, primaryKey: true, autoIncrement: true },
+      eventType: { type: DataTypes.STRING(30), allowNull: false, field: "event_type" },
+      severity: { type: DataTypes.STRING(20), allowNull: false, defaultValue: "info" },
+      applicationName: { type: DataTypes.STRING(120), allowNull: true, field: "application_name" },
+      userId: { type: DataTypes.BIGINT, allowNull: true, field: "user_id" },
+      employeeCode: { type: DataTypes.STRING(255), allowNull: true, field: "employee_code" },
+      employeeName: { type: DataTypes.STRING(255), allowNull: true, field: "employee_name" },
+      organizationId: { type: DataTypes.STRING(120), allowNull: true, field: "organization_id" },
+      organizationName: { type: DataTypes.STRING(180), allowNull: true, field: "organization_name" },
+      factoryId: { type: DataTypes.STRING(120), allowNull: true, field: "factory_id" },
+      factoryName: { type: DataTypes.STRING(180), allowNull: true, field: "factory_name" },
+      vendorId: { type: DataTypes.STRING(120), allowNull: true, field: "vendor_id" },
+      vendorName: { type: DataTypes.STRING(180), allowNull: true, field: "vendor_name" },
+      ipAddress: { type: DataTypes.STRING(80), allowNull: true, field: "ip_address" },
+      method: { type: DataTypes.STRING(12), allowNull: true },
+      route: { type: DataTypes.STRING(255), allowNull: true },
+      statusCode: { type: DataTypes.INTEGER, allowNull: true, field: "status_code" },
+      durationMs: { type: DataTypes.INTEGER, allowNull: true, field: "duration_ms" },
+      message: { type: DataTypes.TEXT, allowNull: true },
+      stack: { type: DataTypes.TEXT, allowNull: true },
+      metadata: { type: DataTypes.JSONB, allowNull: false, defaultValue: {} },
+    },
+    { tableName: "app_telemetry_events", timestamps: true, createdAt: "created_at", updatedAt: "updated_at" },
+  );

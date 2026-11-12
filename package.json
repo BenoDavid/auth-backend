@@ -1,0 +1,38 @@
+{
+  "name": "authguardv2-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AuthGuard v2 API using Express, Sequelize, and PostgreSQL",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:setup": "npm run db:migrate && npm run db:seed",
+    "db:seed": "npm run db:seed:auth",
+    "db:seed:auth": "sequelize-cli db:seed --seed 20261005000100-seed-authguard-permissions.js && sequelize-cli db:seed --seed 20261109000100-seed-superadmin.js && sequelize-cli db:seed --seed 20261110000100-seed-mmms-permissions.js && sequelize-cli db:seed --seed 20261111000800-update-mmms-navigation.js && sequelize-cli db:seed --seed 20261111001000-seed-access-scope-permission.js && sequelize-cli db:seed --seed 20261111001200-seed-vendor-permissions-navigation.js && sequelize-cli db:seed --seed 20261111001300-ensure-superadminv2-navigation.js && sequelize-cli db:seed --seed 20261111001400-seed-telemetry-permissions.js",
+    "db:seed:workspace": "sequelize-cli db:seed --seed 20261007000100-seed-workspace-applications.js && sequelize-cli db:seed --seed 20261007000200-seed-application-navigation.js",
+    "db:seed:undo": "sequelize-cli db:seed:undo:all",
+    "bootstrap:admin": "node scripts/bootstrap-admin.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.8",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

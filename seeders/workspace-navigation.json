@@ -1,0 +1,1329 @@
+[
+  {
+    "applicationName": "superadminv2",
+    "landingRoute": "/adminv2/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-activity",
+        "link": "/adminv2/error/logs",
+        "label": "Error Logs",
+        "permission": "admin-logs"
+      },
+      {
+        "icon": "bi-wrench-adjustable",
+        "link": "/adminv2/webutil",
+        "label": "WebUtil",
+        "permission": "admin-user"
+      },
+      {
+        "icon": "bi-palette",
+        "link": "/adminv2/theme",
+        "label": "Theme",
+        "permission": "admin-user"
+      },
+      {
+        "icon": "bi-person-vcard",
+        "link": "/adminv2/user",
+        "label": "User",
+        "permission": "admin-user"
+      },
+      {
+        "icon": "bi-grid",
+        "link": "/adminv2/application",
+        "label": "Applications",
+        "permission": "applications:manage"
+      },
+      {
+        "icon": "bi-key",
+        "link": "/adminv2/permission",
+        "label": "Permission",
+        "permission": "admin-permission"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/adminv2/role",
+        "label": "Role",
+        "permission": "admin-role"
+      },
+      {
+        "icon": "bi-person-lines-fill",
+        "link": "/adminv2/vendors",
+        "label": "Vendors",
+        "permission": "vendors:manage"
+      }
+    ]
+  },
+  {
+    "applicationName": "WMS",
+    "landingRoute": "/wms/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/wms/welcome",
+        "label": "Welcome",
+        "permission": "wms"
+      },
+      {
+        "icon": "bi-list-ul",
+        "link": "/wms/dashboard",
+        "label": "WMS Dashboard",
+        "permission": "wms-dashboard"
+      },
+      {
+        "icon": "bi-diagram-2",
+        "link": "/wms/fabric-roll-control",
+        "label": "Fabric Roll Control",
+        "permission": "Fabric-roll-control"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/wms/generateSourcingAsnReport",
+        "label": "Sourcing ASN Report",
+        "permission": "view_sourcing_asn_report"
+      },
+      {
+        "icon": "bi-printer",
+        "link": "/wms/printSourcingAsnReport",
+        "label": "Print ASN Report",
+        "permission": "print_sourcing_asn_report"
+      },
+      {
+        "icon": "bi-box-arrow-in-down",
+        "link": "/wms/fabric/receive",
+        "label": "Receive Fabric",
+        "permission": "view_receive_fabric"
+      },
+      {
+        "icon": "bi-box-arrow-in-down",
+        "link": "/wms/batch-receive",
+        "label": "Batch Receive",
+        "permission": "batch-receive"
+      },
+      {
+        "icon": "bi-box-arrow-in-down",
+        "link": "/wms/batch-issue-action",
+        "label": "Batch Issue Action",
+        "permission": "batch-issue-action"
+      },
+      {
+        "icon": "bi-box-seam",
+        "link": "/wms/fabric/received",
+        "label": "Received Fabric",
+        "permission": "view_received_fabric"
+      },
+      {
+        "icon": "bi-box-seam",
+        "link": "/wms/fabric/smroll",
+        "label": "Split/Merge Roll",
+        "permission": "view_split_merge_roll"
+      },
+      {
+        "icon": "bi-tags",
+        "link": "/wms/fabric/split-rolls",
+        "label": "Split Roll Stickers",
+        "permission": "view_split_merge_roll"
+      },
+      {
+        "icon": "bi-box-seam",
+        "link": "/wms/rack-explorer",
+        "label": "Rack Explorer",
+        "permission": "rack-explorer"
+      },
+      {
+        "icon": "bi-search",
+        "link": "/wms/fabric/finder",
+        "label": "Fabric Finder",
+        "permission": "view_fabric_finder"
+      },
+      {
+        "icon": "bi-grid",
+        "link": "/wms/allocate/bin",
+        "label": "Allocate Bin",
+        "permission": "view_allocate_bin"
+      },
+      {
+        "icon": "bi-arrow-bar-up",
+        "link": "/wms/allocate/toinspection",
+        "label": "Allocate To Inspection",
+        "permission": "view_allocate_inspection"
+      },
+      {
+        "icon": "bi-search",
+        "link": "/wms/fabric/inspection",
+        "label": "Inspection",
+        "permission": "view_inspection"
+      },
+      {
+        "icon": "bi-box-arrow-up",
+        "link": "/wms/issue",
+        "label": "Issue Fabric Request",
+        "permission": "view_issue_fabric_request"
+      },
+      {
+        "icon": "bi-check2-circle",
+        "link": "/wms/fabric/issued",
+        "label": "Issue Fabric Action",
+        "permission": "view_issued_fabric_action"
+      },
+      {
+        "icon": "bi-kanban",
+        "link": "/wms/rack/track",
+        "label": "Track Rack",
+        "permission": "view_track_rack"
+      },
+      {
+        "icon": "bi-binoculars",
+        "link": "/wms/track/fabric/roll",
+        "label": "Track Fabric Roll",
+        "permission": "view_track_fabric_roll"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/wms/warehouse",
+        "label": "Warehouse",
+        "permission": "wms-admin"
+      },
+      {
+        "icon": "bi-sliders",
+        "link": "/wms/customize/rack",
+        "label": "Customize Rack",
+        "permission": "customize_rack"
+      },
+      {
+        "icon": "bi-arrow-repeat",
+        "link": "/wms/oc/reallocation",
+        "label": "OC Reallocation Requests",
+        "permission": "wms-admin"
+      },
+      {
+        "icon": "bi-arrow-repeat",
+        "link": "/wms/oc/reallocation/trigger",
+        "label": "OC Reallocation Trigger",
+        "permission": "wms-admin"
+      },
+      {
+        "icon": "bi-arrow-left-right",
+        "link": "/wms/change/pallet",
+        "label": "Change Pallet",
+        "permission": "view_change_pallet"
+      }
+    ]
+  },
+  {
+    "applicationName": "Troubleshoot",
+    "landingRoute": "/fpt/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-flag",
+        "link": "/fpt/report/challenge",
+        "label": "Challenge",
+        "permission": "fpt"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/fpt/resolve/challenge",
+        "label": "CAPA",
+        "permission": "fpt"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/fpt/challenges/report/list",
+        "label": "Report",
+        "permission": "fpt"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/fpt/npt/line-allocator",
+        "label": "Line Allocator",
+        "permission": "npt"
+      },
+      {
+        "icon": "bi-list-ul",
+        "link": "/fpt/npt/list",
+        "label": "List NPT",
+        "permission": "npt"
+      },
+      {
+        "icon": "bi-plus-circle",
+        "link": "/fpt/npt/add",
+        "label": "Add NPT",
+        "permission": "npt"
+      },
+      {
+        "icon": "bi-bar-chart-line",
+        "link": "/fpt/npt/ticket-status",
+        "label": "Ticket Status",
+        "permission": "npt"
+      },
+      {
+        "icon": "bi-check-circle",
+        "link": "/fpt/npt/resolution",
+        "label": "Resolution",
+        "permission": "npt"
+      }
+    ]
+  },
+  {
+    "applicationName": "NPT",
+    "landingRoute": "/fpt/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/fpt/welcome",
+        "label": "Welcome",
+        "permission": "NPT-APP"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/fpt/npt/user/list",
+        "label": "List Users",
+        "permission": "NPT-LINE-USERS"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/fpt/npt/line-allocator-batch",
+        "label": "Line Allocator Batch",
+        "permission": "NPT-LINE-ALLOCATION-BATCH"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/fpt/npt/line-allocator",
+        "label": "Line Allocator",
+        "permission": "NPT-LINE-ALLOCATION-PAGE"
+      },
+      {
+        "icon": "bi-list-ul",
+        "link": "/fpt/npt/list",
+        "label": "List NPT",
+        "permission": "NPT-LIST-PAGE"
+      },
+      {
+        "icon": "bi-plus-circle",
+        "link": "/fpt/npt/add",
+        "label": "Add NPT",
+        "permission": "NPT-ADD-PAGE"
+      },
+      {
+        "icon": "bi-bar-chart-line",
+        "link": "/fpt/npt/ticket-status",
+        "label": "Ticket Status",
+        "permission": "NPT-TICKET-STATUS-PAGE"
+      },
+      {
+        "icon": "bi-check-circle",
+        "link": "/fpt/npt/resolution",
+        "label": "Resolution",
+        "permission": "NPT-RESOLUTION-PAGE"
+      }
+    ]
+  },
+  {
+    "applicationName": "TechTicket",
+    "landingRoute": "/tt/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-tools",
+        "link": "/tt/resolve/issue",
+        "label": "Tickets",
+        "permission": "TT-CREATE"
+      }
+    ]
+  },
+  {
+    "applicationName": "cuttingQC",
+    "landingRoute": "/cqc/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-gear",
+        "link": "/cqc/welcome",
+        "label": "Home",
+        "permission": "CQC"
+      },
+      {
+        "icon": "bi-bug",
+        "link": "/cqc/marker",
+        "label": "Marker",
+        "permission": "CQC"
+      },
+      {
+        "icon": "bi-file-earmark",
+        "link": "/cqc/marker/report",
+        "label": "MarkerReport",
+        "permission": "CQC"
+      },
+      {
+        "icon": "bi-pencil",
+        "link": "/cqc/spreading",
+        "label": "spreading",
+        "permission": "CQC"
+      },
+      {
+        "icon": "bi-bar-chart",
+        "link": "/cqc/spreading/report",
+        "label": "spreadingReport",
+        "permission": "CQC"
+      }
+    ]
+  },
+  {
+    "applicationName": "WorkVault",
+    "landingRoute": "/pms/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/pms/welcome",
+        "label": "Welcome",
+        "permission": "PMS-APP"
+      },
+      {
+        "icon": "bi-building",
+        "link": "/pms/departments",
+        "label": "Departments",
+        "permission": "PMS-Departments"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/pms/teams",
+        "label": "Teams",
+        "permission": "PMS-Teams"
+      },
+      {
+        "icon": "bi-chat-dots",
+        "link": "/pms/topics",
+        "label": "Topics",
+        "permission": "pms-topic"
+      },
+      {
+        "icon": "bi-list-task",
+        "link": "/pms/task/types",
+        "label": "Task Types",
+        "permission": "pms-types"
+      },
+      {
+        "icon": "bi-card-checklist",
+        "link": "/pms/tasks",
+        "label": "Tasks",
+        "permission": "pms-tasks"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/pms/team/tasks",
+        "label": "Team Tasks",
+        "permission": "pms-team-tasks"
+      },
+      {
+        "icon": "bi-building",
+        "link": "/pms/department/tasks",
+        "label": "Department Tasks",
+        "permission": "PMS-MANAGER"
+      }
+    ]
+  },
+  {
+    "applicationName": "Audit-PRO",
+    "landingRoute": "/audit-pro/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/audit-pro/welcome",
+        "label": "Welcome",
+        "permission": "Audit-PRO-APP"
+      },
+      {
+        "icon": "bi-building",
+        "link": "/audit-pro/admin/facility",
+        "label": "Facility",
+        "permission": "Audit-PRO-APP"
+      },
+      {
+        "icon": "bi-tags",
+        "link": "/audit-pro/library/category",
+        "label": "Library Category",
+        "permission": "Audit-PRO-APP"
+      },
+      {
+        "icon": "bi-calendar-check",
+        "link": "/audit-pro/6s/audit-schedule",
+        "label": "6S Audit Schedule",
+        "permission": "Audit-PRO-APP"
+      },
+      {
+        "icon": "bi-calendar-event",
+        "link": "/audit-pro/red-tag/audit-schedule",
+        "label": "Red Tag Audit Schedule",
+        "permission": "Audit-PRO-APP"
+      },
+      {
+        "icon": "bi-journal-bookmark",
+        "link": "/audit-pro/library/home",
+        "label": "Library Home",
+        "permission": "Audit-PRO-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Fit Track",
+    "landingRoute": "/fittrack/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/fittrack/welcome",
+        "label": "Welcome",
+        "permission": "FITTRACK-APP"
+      },
+      {
+        "icon": "bi-people-fill",
+        "link": "/fittrack/members",
+        "label": "Members",
+        "permission": "FITTRACK-APP"
+      },
+      {
+        "icon": "bi-credit-card",
+        "link": "/fittrack/members-payments",
+        "label": "Payments",
+        "permission": "FITTRACK-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Stock Verify",
+    "landingRoute": "/sv/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/sv/welcome",
+        "label": "Welcome",
+        "permission": "STOCK-VERIFY-APP"
+      },
+      {
+        "icon": "bi-calendar-range",
+        "link": "/sv/schedule",
+        "label": "Schedule",
+        "permission": "STOCK-VERIFY-SCHEDULE"
+      }
+    ]
+  },
+  {
+    "applicationName": "Sample Tracking",
+    "landingRoute": "/samt/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house-door",
+        "link": "/samt/welcome",
+        "label": "Welcome",
+        "permission": "SAMPLE-TRACKING-APP"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/samt/operators",
+        "label": "Operators List",
+        "permission": "SAMPLE-TRACKING-OPERATORS"
+      },
+      {
+        "icon": "bi-clock-history",
+        "link": "/samt/operator-overtime",
+        "label": "Operator Overtime",
+        "permission": "SAMPLE-TRACKING-OPERATOR-OVERTIME"
+      },
+      {
+        "icon": "bi-calendar-range",
+        "link": "/samt/shift-policy",
+        "label": "Shift Policy",
+        "permission": "SAMPLE-TRACKING-SHIFT-POLICY"
+      },
+      {
+        "icon": "bi-building",
+        "link": "/samt/facility-lines",
+        "label": "Facility Lines List",
+        "permission": "SAMPLE-TRACKING-FACILITY-LINES"
+      },
+      {
+        "icon": "bi-card-checklist",
+        "link": "/samt/indent-tracker",
+        "label": "Indent Tracker",
+        "permission": "SAMPLE-TRACKING-INDENT-TRACKER"
+      },
+      {
+        "icon": "bi-card-checklist",
+        "link": "/samt/piece-tracker",
+        "label": "Piece Tracker",
+        "permission": "SAMPLE-TRACKING-INDENT-TRACKER"
+      },
+      {
+        "icon": "bi-list-columns",
+        "link": "/samt/indent-list",
+        "label": "Indent List",
+        "permission": "SAMPLE-TRACKING-INDENT-LIST"
+      },
+      {
+        "icon": "bi-upc-scan",
+        "link": "/samt/indent-qr-generator",
+        "label": "Indent Receiver",
+        "permission": "SAMPLE-TRACKING-RECEIVER"
+      },
+      {
+        "icon": "bi-qr-code-scan",
+        "link": "/samt/indent-qr-print",
+        "label": "Indent QR Print",
+        "permission": "SAMPLE-TRACKING-PRINT"
+      },
+      {
+        "icon": "bi-person-badge",
+        "link": "/samt/indent-admin",
+        "label": "Indent Admin",
+        "permission": "SAMPLE-TRACKING-INDENT-ADMIN"
+      },
+      {
+        "icon": "bi-file-earmark-text",
+        "link": "/samt/pattern",
+        "label": "Pattern",
+        "permission": "SAMPLE-TRACKING-PATTERN"
+      },
+      {
+        "icon": "bi-box-seam",
+        "link": "/samt/fabric",
+        "label": "Fabric",
+        "permission": "SAMPLE-TRACKING-FABRIC"
+      },
+      {
+        "icon": "bi-scissors",
+        "link": "/samt/cutting",
+        "label": "Cutting",
+        "permission": "SAMPLE-TRACKING-CUTTING"
+      },
+      {
+        "icon": "bi-tags",
+        "link": "/samt/trim",
+        "label": "Trim",
+        "permission": "SAMPLE-TRACKING-TRIM"
+      },
+      {
+        "icon": "bi-printer",
+        "link": "/samt/printing",
+        "label": "Printing",
+        "permission": "SAMPLE-TRACKING-PRINTING"
+      },
+      {
+        "icon": "bi-stars",
+        "link": "/samt/embroidery",
+        "label": "Embroidery",
+        "permission": "SAMPLE-TRACKING-EMBROIDERY"
+      },
+      {
+        "icon": "bi-lightning",
+        "link": "/samt/laser",
+        "label": "Laser",
+        "permission": "SAMPLE-TRACKING-LASER"
+      },
+      {
+        "icon": "bi-person-lines-fill",
+        "link": "/samt/stitching-allocator",
+        "label": "Stitching Allocator",
+        "permission": "SAMPLE-TRACKING-STALLOCATOR"
+      },
+      {
+        "icon": "bi-arrow-repeat",
+        "link": "/samt/stitching-reallocator",
+        "label": "Stitching Pending List",
+        "permission": "SAMPLE-TRACKING-STREALLOCATOR"
+      },
+      {
+        "icon": "bi-tools",
+        "link": "/samt/stitching-controller",
+        "label": "Stitching Out",
+        "permission": "SAMPLE-TRACKING-STCONTROLLER"
+      },
+      {
+        "icon": "bi-clipboard-data",
+        "link": "/samt/stitching-qc-pending-list",
+        "label": "Stitching QC Pending List",
+        "permission": "SAMPLE-TRACKING-PENDING-LIST"
+      },
+      {
+        "icon": "bi-clipboard-check",
+        "link": "/samt/stitching-qc-list",
+        "label": "Stitching QC List",
+        "permission": "SAMPLE-TRACKING-QC-LIST"
+      },
+      {
+        "icon": "bi-check2-square",
+        "link": "/samt/stitching-qc",
+        "label": "Stitching QC",
+        "permission": "SAMPLE-TRACKING-STQC"
+      },
+      {
+        "icon": "bi-check-circle-fill",
+        "link": "/samt/qa",
+        "label": "Quality Analysis",
+        "permission": "SAMPLE-TRACKING-QUALITY-ANALYSIS"
+      },
+      {
+        "icon": "bi-check-circle",
+        "link": "/samt/cft-qc-list",
+        "label": "CFT / TD QC List",
+        "permission": "SAMPLE-TRACKING-CFT-QC-LIST"
+      },
+      {
+        "icon": "bi-hourglass-split",
+        "link": "/samt/cft-pending-qc-list",
+        "label": "CFT / TD Pending QC List",
+        "permission": "SAMPLE-TRACKING-CFT-PENDING-QC-LIST"
+      },
+      {
+        "icon": "bi-people-fill",
+        "link": "/samt/cfttd",
+        "label": "CFT / TD",
+        "permission": "SAMPLE-TRACKING-CFT"
+      },
+      {
+        "icon": "bi-people-fill",
+        "link": "/samt/cft",
+        "label": "CFT / TD QC",
+        "permission": "SAMPLE-TRACKING-CFT"
+      },
+      {
+        "icon": "bi-people-fill",
+        "link": "/samt/storage-list",
+        "label": "Storage",
+        "permission": "SAMPLE-TRACKING-CFT"
+      },
+      {
+        "icon": "bi-bar-chart-line",
+        "link": "/samt/ipc-report",
+        "label": "IPC REPORT",
+        "permission": "SAMPLE-TRACKING-IPC-REPORT"
+      },
+      {
+        "icon": "bi-graph-up-arrow",
+        "link": "/samt/ipc-report-summary",
+        "label": "IPC SUMMARY REPORT",
+        "permission": "SAMPLE-TRACKING-IPC-SUMMARY-REPORT"
+      }
+    ]
+  },
+  {
+    "applicationName": "BIA WMS",
+    "landingRoute": "/inau/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house-door",
+        "link": "/inau/welcome",
+        "label": "Welcome",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-calendar3",
+        "link": "/inau/greige-schedules",
+        "label": "Greige Audit",
+        "permission": "INAU-GREIGE-SCHEDULES"
+      },
+      {
+        "icon": "bi-calendar3-range",
+        "link": "/inau/fg-schedules",
+        "label": "FG Audit",
+        "permission": "INAU-GREIGE-SCHEDULES"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/inau/asn-report",
+        "label": "ASN Report",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-down-circle",
+        "link": "/inau/receive-roll",
+        "label": "Receive Roll",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-down-circle",
+        "link": "/inau/verify-allocate",
+        "label": "Verify Allocate",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/inau/re-allocate-pallet",
+        "label": "Reallocate Pallet Location",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-down-circle",
+        "link": "/inau/receive-and-allocate",
+        "label": "Receive & Allocate",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-file-earmark-spreadsheet",
+        "link": "/inau/roll-report",
+        "label": "Roll Report",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-stack",
+        "link": "/inau/issue-batch",
+        "label": "Issue Batch",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-up-circle",
+        "link": "/inau/issue-roll",
+        "label": "Custom Issue ",
+        "permission": "INAU-CUSTOM-ISSUE"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/inau/issue-report",
+        "label": "Issue Report",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-left-right",
+        "link": "/inau/re-allocate-pallet-roll",
+        "label": "Reallocate Pallet Roll",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/inau/trolley-admin",
+        "label": "Trolley Admin",
+        "permission": "INAU-TROLLEY-ADMIN"
+      },
+      {
+        "icon": "bi-people",
+        "link": "/inau/machine-admin",
+        "label": "Machine Admin",
+        "permission": "INAU-MACHINE-ADMIN"
+      },
+      {
+        "icon": "bi-qr-code",
+        "link": "/inau/generate-trolley-qr",
+        "label": "Generate Trolley QR",
+        "permission": "INAU-GENERATE-TROLLEY-QR"
+      },
+      {
+        "icon": "bi-qr-code",
+        "link": "/inau/generate-batch-qr",
+        "label": "Generate Batch QR",
+        "permission": "INAU-GENERATE-BATCH-QR"
+      },
+      {
+        "icon": "bi-qr-code-scan",
+        "link": "/inau/trace-batch",
+        "label": "Trace Batch",
+        "permission": "INAU-TRACE-BATCH"
+      },
+      {
+        "icon": "bi-diagram-3",
+        "link": "/inau/layout-controller",
+        "label": "Layout Controller",
+        "permission": "INAU-LAYOUT-CONTROLLER"
+      },
+      {
+        "icon": "bi-clipboard-check",
+        "link": "/inau/container-admin",
+        "label": "Container Admin",
+        "permission": "BIA-WMS-CONTAINER-ADMIN"
+      },
+      {
+        "icon": "bi-clipboard-check",
+        "link": "/inau/create-asn",
+        "label": "Create ASN",
+        "permission": "INAU-CREATE-ASN"
+      },
+      {
+        "icon": "bi-list-check",
+        "link": "/inau/asn-list",
+        "label": "ASN List",
+        "permission": "INAU-ASN-LIST"
+      }
+    ]
+  },
+  {
+    "applicationName": "Visitor Management",
+    "landingRoute": "/vms/welcome-page",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/vms/welcome-page",
+        "label": "Welcome",
+        "permission": "VISITOR-MANAGEMENT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/vms/entry-page",
+        "label": "Entry Page",
+        "permission": "VISITOR-MANAGEMENT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/vms/view-page",
+        "label": "View Page",
+        "permission": "VISITOR-MANAGEMENT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/vms/out-page",
+        "label": "Out Page",
+        "permission": "VISITOR-MANAGEMENT-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Security Audit",
+    "landingRoute": "/sas/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/sas/welcome",
+        "label": "Welcome",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/sas/location-admin",
+        "label": "Location Admin",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-file-earmark-spreadsheet",
+        "link": "/sas/qr-excel",
+        "label": "QR Excel",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-qr-code",
+        "link": "/sas/qr-generator",
+        "label": "QR Generator",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-search",
+        "link": "/sas/internal-audit",
+        "label": "Internal Audit",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-file-earmark",
+        "link": "/sas/internal-audit-view",
+        "label": "Internal Audit View",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-card-checklist",
+        "link": "/sas/daily-checklist",
+        "label": "Daily Checklist",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-building-fill-check",
+        "link": "/sas/daily-checklist-view",
+        "label": "Daily Checklist View",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-journal-text",
+        "link": "/sas/log-book",
+        "label": "Log Book",
+        "permission": "SECURITY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-calendar-week",
+        "link": "/sas/log-book-view",
+        "label": "Log Book View",
+        "permission": "SECURITY-AUDIT-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Fabric Relaxation",
+    "landingRoute": "/fr/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/fr/welcome",
+        "label": "Welcome",
+        "permission": "FABRIC-RELAXATION-APP"
+      },
+      {
+        "icon": "bi-speedometer2",
+        "link": "/fr/dashboard",
+        "label": "Dashboard",
+        "permission": "FABRIC-RELAXATION-APP"
+      },
+      {
+        "icon": "bi-layers-fill",
+        "link": "/fr/receive-rolls",
+        "label": "Receive Rolls",
+        "permission": "FABRIC-RECEIVE-ROLL"
+      },
+      {
+        "icon": "bi-layers-fill",
+        "link": "/fr/pallet-roll",
+        "label": "Roll Re-Allocation",
+        "permission": "FABRIC-RECEIVE-ROLL"
+      },
+      {
+        "icon": "bi-bookshelf",
+        "link": "/fr/issue-roll",
+        "label": "Issue Roll",
+        "permission": "FABRIC-ISSUE-ROLL"
+      },
+      {
+        "icon": "bi-border-width",
+        "link": "/fr/early-issue-roll",
+        "label": "Approval Early Issue",
+        "permission": "FABRIC-EARLY-ISSUE-APPROVAL"
+      },
+      {
+        "icon": "bi-border-width",
+        "link": "/fr/cutting-approval",
+        "label": "Issued Roll Approval",
+        "permission": "FABRIC-ROLL-APPROVAL"
+      },
+      {
+        "icon": "bi-border-width",
+        "link": "/fr/returned-roll",
+        "label": "Returned Roll",
+        "permission": "FABRIC-RELAXATION-APP"
+      },
+      {
+        "icon": "bi-card-list",
+        "link": "/fr/relax-roll-report",
+        "label": "Reports",
+        "permission": "FABRIC-RELAXATION-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "CTQ Audit",
+    "landingRoute": "/ctq/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/ctq/welcome",
+        "label": "Welcome",
+        "permission": "CTQ-AUDIT-APP"
+      },
+      {
+        "icon": "bi-clipboard-data-fill",
+        "link": "/ctq/admin",
+        "label": "Admin",
+        "permission": "CTQ-AUDIT-ADMIN"
+      },
+      {
+        "icon": "bi bi-calendar",
+        "link": "/ctq/schedule",
+        "label": "Schedule",
+        "permission": "CTQ-AUDIT-SCHEDULE"
+      }
+    ]
+  },
+  {
+    "applicationName": "Automation Tracker",
+    "landingRoute": "/rpa/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/rpa/welcome",
+        "label": "Welcome",
+        "permission": "AUTOMATION-TRACKER-APP"
+      },
+      {
+        "icon": "bi-card-text",
+        "link": "/rpa/zero-touch",
+        "label": "Zero Touch",
+        "permission": "ZERO-TOUCH-APP"
+      },
+      {
+        "icon": "bi-keyboard",
+        "link": "/rpa/asn-list",
+        "label": "ASN",
+        "permission": "ASN-LIST-APP"
+      },
+      {
+        "icon": "bi-gear",
+        "link": "/rpa/di",
+        "label": "DI BI",
+        "permission": "DI-BI-APP"
+      },
+      {
+        "icon": "bi-gear",
+        "link": "/rpa/bdpr",
+        "label": "Bia Dyeing Production",
+        "permission": "BDPR-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "WMS-BIA-V2",
+    "landingRoute": "/bia-wms/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house-door",
+        "link": "/bia-wms/welcome",
+        "label": "Welcome",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-down-circle",
+        "link": "/bia-wms/receive-roll",
+        "label": "Receive Roll",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-geo-alt",
+        "link": "/bia-wms/re-allocate-pallet",
+        "label": "Reallocate Pallet",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-left-right",
+        "link": "/bia-wms/re-allocate-pallet-roll",
+        "label": "Reallocate Roll",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-file-earmark-spreadsheet",
+        "link": "/bia-wms/roll-report",
+        "label": "Roll Report",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-stack",
+        "link": "/bia-wms/issue-batch",
+        "label": "Issue Batch",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/bia-wms/issue-report",
+        "label": "Issue Report",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-card-text",
+        "link": "/bia-wms/packing-list",
+        "label": "Manual Packing List",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-clipboard-check",
+        "link": "/bia-wms/container-admin",
+        "label": "Container Admin",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-arrow-down-circle",
+        "link": "/bia-wms/verify-allocate",
+        "label": "Verify Allocate",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-calendar3",
+        "link": "/bia-wms/greige-schedules",
+        "label": "Greige Audit",
+        "permission": "INVENTORY-AUDIT-APP"
+      },
+      {
+        "icon": "bi-calendar3-range",
+        "link": "/bia-wms/fg-schedules",
+        "label": "FG Audit",
+        "permission": "INVENTORY-AUDIT-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Fabric Tracker",
+    "landingRoute": "/ft/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/ft/welcome",
+        "label": "Welcome",
+        "permission": "FABRIC-TRACKER-APP"
+      },
+      {
+        "icon": "bi-person-circle",
+        "link": "/ft/admin",
+        "label": "Admin",
+        "permission": "FABRIC-TRACKER-APP"
+      },
+      {
+        "icon": "bi-card-text",
+        "link": "/ft/dashboard",
+        "label": "Dashboard",
+        "permission": "FABRIC-TRACKER-APP"
+      },
+      {
+        "icon": "bi-card-text",
+        "link": "/ft/material-data-access",
+        "label": "Material Data Access",
+        "permission": "FT-MATERIAL-DATA-ACCESS"
+      },
+      {
+        "icon": "bi-card-list",
+        "link": "/ft/bulk-entry",
+        "label": "Bulk Entry",
+        "permission": "FT-BULK-ENTRY"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/ft/compliance-entry",
+        "label": "Compliance Entry",
+        "permission": "FT-COMPLIANCE-ENTRY"
+      },
+      {
+        "icon": "bi-card-checklist",
+        "link": "/ft/product-development",
+        "label": "Product Development",
+        "permission": "FT-PRODUCT-DEVELOPMENT"
+      },
+      {
+        "icon": "bi-file-earmark-bar-graph",
+        "link": "/ft/reports",
+        "label": "Reports",
+        "permission": "FABRIC-TRACKER-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "MD Scan",
+    "landingRoute": "/md/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/md/welcome",
+        "label": "Welcome",
+        "permission": "MD-SCAN-APP"
+      },
+      {}
+    ]
+  },
+  {
+    "applicationName": "Process Audit",
+    "landingRoute": "/pa/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/pa/welcome",
+        "label": "Welcome",
+        "permission": "PROCESS-AUDIT-APP"
+      },
+      {
+        "icon": "bi-person-lines-fill",
+        "link": "/pa/admin",
+        "label": "Admin",
+        "permission": "PROCESS-AUDIT-ADMIN"
+      },
+      {
+        "icon": "bi-clipboard-data",
+        "link": "/pa/audit-schedule",
+        "label": "Audit",
+        "permission": "PROCESS-AUDIT-SCHEDULE"
+      },
+      {
+        "icon": "bi-list-check",
+        "link": "/pa/cap-management",
+        "label": "Cap Management",
+        "permission": "PROCESS-AUDIT-CAP"
+      },
+      {
+        "icon": "bi-bar-chart-line",
+        "link": "/pa/reports",
+        "label": "Reports",
+        "permission": "PROCESS-AUDIT-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Courier Tracker",
+    "landingRoute": "/ct/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/ct/welcome",
+        "label": "Welcome",
+        "permission": "COURIER-TRACKER-APP"
+      },
+      {
+        "icon": "bi-truck",
+        "link": "/ct/trackings",
+        "label": "Trackings",
+        "permission": "COURIER-TRACKER-APP"
+      }
+    ]
+  },
+  {
+    "applicationName": "Courier Management System",
+    "landingRoute": "/cms/welcome",
+    "navbarItems": [
+      {
+        "icon": "bi-house",
+        "link": "/cms/welcome",
+        "label": "Welcome",
+        "permission": "COURIER-MANAGEMENT-SYSTEM-APP"
+      },
+      {
+        "icon": "bi-house",
+        "link": "/cms/admin",
+        "label": "Admin",
+        "permission": "COURIER-MANAGEMENT-SYSTEM-ADMIN-APP"
+      },
+      {
+        "icon": "bi-card-text",
+        "link": "/cms/dashboard",
+        "label": "Dashboard",
+        "permission": "COURIER-MANAGEMENT-SYSTEM-APP"
+      },
+      {
+        "icon": "bi-card-list",
+        "link": "/cms/outbound-list",
+        "label": "Outbound List",
+        "permission": "COURIER-MANAGEMENT-OUTBOUND-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/outbound-booking/:id",
+        "label": "Outbound Booking",
+        "permission": "COURIER-MANAGEMENT-OUTBOUND-BOOKING-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/create-awb/:id",
+        "label": "Create AWB",
+        "permission": "COURIER-MANAGEMENT-CREATE-AWB-APP"
+      },
+      {
+        "icon": "bi-card-list",
+        "link": "/cms/inbound-list",
+        "label": "Inbound List",
+        "permission": "COURIER-MANAGEMENT-INBOUND-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/inbound-booking/:id",
+        "label": "Inbound Booking",
+        "permission": "COURIER-MANAGEMENT-INBOUND-BOOKING-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/courier-tracker/:id",
+        "label": "Courier Tracker",
+        "permission": "COURIER-MANAGEMENT-COURIER-TRACKER-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/payment",
+        "label": "Payment",
+        "permission": "COURIER-MANAGEMENT-PAYMENT-APP"
+      },
+      {
+        "icon": "bi-card-heading",
+        "link": "/cms/report",
+        "label": "Report",
+        "permission": "COURIER-MANAGEMENT-REPORT-APP"
+      }
+    ]
+  }
+]
